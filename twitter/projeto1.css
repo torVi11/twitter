@@ -1,0 +1,106 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/13/b0/00/13b0000818cfd9cf27d39afaa051dc23.gif');
+    background-repeat: repeat;
+} 
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255,0.5);
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+}
+
+#post-content {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff6f656;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #297fb8;
+}
+
+#posts {
+    margin-top: 20px;
+    color: white;
+}
+
+.post {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*Adicione esta regra para estilizar o footer*/
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    color: rgb(185, 185, 185);
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    top: 91.3%;
+}
+
+#termos {
+    background-color: #000000;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#imagem1 {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+   transform: translate(-50%, -50%);
+}
+

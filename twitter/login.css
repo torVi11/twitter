@@ -1,0 +1,134 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/13/b0/00/13b0000818cfd9cf27d39afaa051dc23.gif');
+    background-repeat: repeat;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#username {
+    font-size: 1em;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    color: #000000;
+    padding: 3px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 70%;
+
+}
+
+#username1 {
+    font-size: 1.1em;
+    color: rgb(255, 242, 242);
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+#password {
+    font-size: 1em;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    color: #000000;
+    padding: 3px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    border-radius: 5px;
+    width: 70%;
+}
+
+#password1 {
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+input[type="submit"]:hover {
+    background-color: #297fb8;
+}
+
+main {
+    width: 17%;
+    height: 45%;
+    margin: 20px auto;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255,0.5);
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: -20px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    color: rgb(185, 185, 185);
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    top: 91.3%;
+}
+
+#imagem1 {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+#termos {
+    background-color: #000000;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
